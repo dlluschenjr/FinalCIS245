@@ -1,0 +1,206 @@
+body {
+	font-size: 100%;
+}
+  .sideandmainContainer, #top-nav, .main, .sidebar-left, #issue, .issue-img, #issue-nav, header, #top-banner, .main-content  {
+	float: none;
+	width: auto;  
+  }	
+  
+.page-container {
+	width:100%;
+}
+
+/*top banner*/
+
+header h1 {
+font-size: 1.45em;  
+}
+#top-nav {
+	margin-top: 0;
+	float:right;
+	width:100%;
+}
+
+nav {
+margin:0;
+text-align: center;  
+padding: 5px 10px 0 10px;
+}
+
+nav li {
+float: none;  
+display: inline-block;
+}
+
+nav a {
+	float:none;
+	color: #2e3640;
+	font-size: 14px;	
+	font-weight: 600;
+	text-decoration: none;
+	padding: 0 8px 0 8px;
+	border-left: 2px solid #2e3640;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+nav a:hover {
+	background-color: #8ea03f;
+}
+
+#top-banner {
+	margin: 0;
+	padding:0;
+	background-color: #c4c63f; 
+	background-image: linear-gradient(to bottom, #c4c63f, #8ea03f);
+	background-image: -moz-linear-gradient(bottom, #c4c63f, #8ea03f);
+	background-image: -webkit-linear-gradient(bottom, #c4c63f, #8ea03f);
+	background-image: -o-linear-gradient(bottom, #c4c63f, #8ea03f);
+	height: 150px;
+}
+
+.date {
+	text-align: left;
+	font-size: 9px;
+	font-weight: 800;
+	line-height: 1.1em;
+}
+.number {
+	text-align: left;
+	font-size: 15px;
+	line-height: 1em;
+}
+
+#header-logo {
+	float: right;
+	width:76%;
+	text-align: left;
+}
+
+header h1 {
+	font-size: 50px;	
+}
+
+.tagline{
+	font-size: 8px;
+	font-weight: 800;
+	text-align:right;
+}
+
+#curve {
+	width:100%;
+	height: 110px;
+	position: absolute; 
+	top:140px;
+	background-image: url(images/headercurve.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+/* Left Sidebar*/
+.sidebar-left {
+	float:left;
+	width: 100%;
+	padding: 10px 8px 8px 8px;
+	margin: 0;
+}
+
+/*main area*/
+.main-content {
+  	width: 100%;
+}
+
+.main {
+	float:left;
+  	width: 100%;
+  	padding: 3px 2px;
+}
+
+.columns {
+	column-count:1;
+    column-gap:8px;            
+    -webkit-column-count:1; /* Chrome, Safari, Opera */
+    -webkit-column-gap:8px; /* Chrome, Safari, Opera */
+    -moz-column-count:1; /* Firefox */
+    -moz-column-gap:8px; /* Firefox */
+     padding: 6px 10px 0 10px;
+}
+
+h2.mainsection-head {
+	font-size: 20px;
+	line-height: 1.15em;
+	padding: 5px 0 0 5px;
+}
+
+/*issue section*/
+.sidebar-head {
+	padding: 15px 5px 5px 5px;
+	font-size: 21px;
+}
+
+h3.second-sidebar-head {
+	font-size: 14px;
+	padding: 10px 8px 5px 0;
+}
+
+#issue {
+	width: 100%;
+	margin: 0;
+	background-color: #2e3640;
+}
+
+.issue-img {
+	max-width: 100%;
+	}
+#issue-nav {
+	text-align: center;
+	width: 100%;	
+	padding: 10px 0 10px 0;
+}
+
+h2.issue-head {
+	font-size: 22px;
+	padding: 0 5px 0 0;
+}
+
+.menu-items {
+	margin: 0;
+	padding: 2px 4px 2px 0;
+}
+
+.menu-items li {
+	padding: 3px 0 0 0;
+}
+
+/*footer*/
+footer {
+ 	text-align: center;
+	background-color: #402517;
+	background-image:none;
+	font-size: 14px;	
+	padding: 15px 15px 30px 15px;
+	color: #fff;
+	clear: both;	
+}
+
+.copyright {
+    padding: 15px 8px 8px 8px;
+ 	line-height: 1.5em;
+    }
+p.copyright {
+	text-align: center;
+}    
+.copyright a {
+    color:#fff;
+	}
+	
+.img-right {
+    float:right;
+    width: 100%;
+    padding: 0 30px 5px 35px;
+}
+
+ 
